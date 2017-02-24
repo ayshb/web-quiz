@@ -17,62 +17,98 @@
             <div class="row">
                <div class="col-md-12 col-xs-12 col-lg-12">
                   <div class="col-md-12 col-xs-12 col-lg-12">
-                     <img class="col-md-2 col-xs-2 col-lg-2 center-block pullNone" src="images/usga.png" onclick="http://www.usga.org/" />
+                     <img class="col-md-2 col-xs-5 col-lg-2 center-block pullNone" src="images/usga.png" onclick="http://www.usga.org/" />
                   </div>
-                  <div class="col-md-12 col-xs-12 col-lg-12" id="quizScreen">
-                     <div class="col-md-12 col-xs-12 col-lg-12 center-block">
-                        <h3 class="text-center text-danger">
-                           <strog>SCORE</strog>
-                        </h3>
-                        <h3 class="text-center">
-                           <strong id="score">0</strong>
-                        </h3>
-                     </div>
-                     <div class="col-md-12 col-xs-12 col-lg-12">
-                        <h4 id="question" class="divWhite">
-                        </h4>
-                        <div class="col-md-12 col-xs-12 col-lg-12 padding0">
-                           <div class="answerOpt col-md-12 col-xs-12 col-lg-12 padding0">
-                           </div>
-                           <div id="ansExp" class="col-md-12 col-xs-12 col-lg-12 divWhite marginTop10 displayNone">
-                              <h2 class="rightWrong">
-                              </h2>
-                              <p id="answerExp">
-                              </p>
-                           </div>
-                           <div class="col-md-12 col-xs-12 col-lg-12 footer">
-                              <button type="button" class="btn btn-lg btn-block btn-danger" id="btnNext">
-                                 Next Question
-                              </button>
-                           </div>
+                  <div class="col-md-12 col-xs-12 col-lg-12" id="landingScreen">
+                     <h3 class="text-center text-white marginTop10">
+                        <strong>TRIVIA</strong>
+                     </h3>
+                     <div class="col-md-12 col-xs-12 col-lg-12 marginTop20">
+                        <div id="container">
+                           <div class="item red"></div>
+                           <div class="item blue"></div>
+                           <div class="item green"></div>
+                           <div class="item white"></div>
+                           <div class="item red"></div>
+                           <div class="item blue"></div>
+                           <div class="item green"></div>
+                           <div class="item white"></div>
+                           <div class="item red"></div>
+                           <div class="item blue"></div>
+                           <div class="item green"></div>
+                           <div class="item white"></div>
+                           <div class="item red"></div>
+                           <div class="item blue"></div>
+                           <div class="item green"></div>
+                           <div class="item white"></div>
+                           <div class="item red"></div>
+                           <div class="item blue"></div>
+                           <div class="item green"></div>
+                           <div class="item white"></div>
                         </div>
                      </div>
-
-                  </div>
-                  <div class="col-md-12 col-xs-12 col-lg-12 displayNone" id="finalScreen">
-                     <div class="col-md-2 col-xs-2 col-lg-2">
-
+                     <div class="col-md-12 col-xs-12 col-lg-12 marginTop20">
+                        <div id="filters" class="pull-left">
+                           <input type="checkbox" name="red" value=".red" id="red"><label class="marginLeft10" for="red">red</label>
+                           <input type="checkbox" name="blue" value=".blue" id="blue" class="marginLeft20"><label class="marginLeft10" for="blue">blue</label>
+                           <input type="checkbox" name="green" value=".green" id="green" class="marginLeft20"><label class="marginLeft10" for="green">green</label>
+                           <input type="checkbox" name="white" value=".white" id="white" class="marginLeft20"><label class="marginLeft10" for="white">white</label>
+                        </div>
+                        <p><button class="btn btn-danger pull-left marginLeft20" id="shuffle">Shuffle</button></p>
                      </div>
-                     <div class="footer-social-icons col-md-8 col-xs-8 col-lg-8">
-                         <h4 class="_24 text-center text-white" id="finalScore">
-                            Score
-                         </h4>
-                         <h5 class="_14 text-center text-white">
-                            Join the conversation
-                         </h5>
-                         <ul class="social-icons col-md-12 col-xs-12 col-lg-12">
-                             <li><a href="https://www.facebook.com/USGA" class="social-icon col-md-2 col-xs-2 col-lg-2"> <i class="fa fa-facebook _34"></i></a></li>
-                             <li><a href="https://twitter.com/usga" class="social-icon col-md-2 col-xs-2 col-lg-2"> <i class="fa fa-twitter _34"></i></a></li>
-                             <li><a href="https://www.instagram.com/usga/" class="social-icon col-md-2 col-xs-2 col-lg-2"> <i class="fa fa-instagram _34"></i></a></li>
-                             <li><a href="https://www.youtube.com/user/TheUSGA" class="social-icon col-md-2 col-xs-2 col-lg-2"> <i class="fa fa-youtube _34"></i></a></li>
-                             <li><a href="https://www.linkedin.com/company/united-states-golf-association" class="social-icon col-md-2 col-xs-2 col-lg-2"> <i class="fa fa-linkedin _34"></i></a></li>
-                             <li><a href="https://plus.google.com/101025757252712922342" class="social-icon col-md-2 col-xs-2 col-lg-2"> <i class="fa fa-google-plus _34"></i></a></li>
-                         </ul>
-                         <div class="col-md-12 col-xs-12 col-lg-12">
-                           <div class="col-md-3 col-xs-3 col-lg-3">
-
-                           </div>
-                         <div class="tw-feed col-md-7 col-xs-7 col-lg-7">
+                  </div>
+               </div>
+               <div class="col-md-12 col-xs-12 col-lg-12 displayNone" id="quizScreen">
+                  <div class="col-md-12 col-xs-12 col-lg-12 center-block marginTop20">
+                     <h3 class="text-center text-white">
+                        <strong>SCORE</strong>
+                     </h3>
+                     <h3 class="text-center">
+                        <strong id="score">0</strong>
+                     </h3>
+                  </div>
+                  <div class="col-md-12 col-xs-12 col-lg-12 marginTop20">
+                     <h4 id="question" class="divWhite">
+                     </h4>
+                     <div class="col-md-12 col-xs-12 col-lg-12 padding0">
+                        <div class="answerOpt col-md-12 col-xs-12 col-lg-12 padding0">
+                        </div>
+                        <div id="ansExp" class="col-md-12 col-xs-12 col-lg-12 divWhite marginTop10 displayNone">
+                           <h2 class="rightWrong">
+                           </h2>
+                           <p id="answerExp">
+                           </p>
+                        </div>
+                        <div class="col-md-12 col-xs-12 col-lg-12 footer">
+                           <button type="button" class="btn btn-lg btn-block btn-danger" id="btnNext">
+                           Next Question
+                           </button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-12 col-xs-12 col-lg-12 displayNone" id="finalScreen">
+                  <div class="col-md-2 col-xs-0 col-lg-2">
+                  </div>
+                  <div class="footer-social-icons col-md-8 col-xs-12 col-lg-8 marginTop20">
+                     <h4 class="_24 text-center text-white" id="finalScore">
+                        Score
+                     </h4>
+                     <h5 class="_14 text-center text-white marginTop10">
+                        Join the conversation
+                     </h5>
+                     <ul class="social-icons col-md-12 col-xs-12 col-lg-12">
+                        <li><a href="https://www.facebook.com/USGA" class="social-icon col-md-2 col-xs-4 col-lg-2"> <i class="fa fa-facebook _34"></i></a></li>
+                        <li><a href="https://twitter.com/usga" class="social-icon col-md-2 col-xs-4 col-lg-2"> <i class="fa fa-twitter _34"></i></a></li>
+                        <li><a href="https://www.instagram.com/usga/" class="social-icon col-md-2 col-xs-4 col-lg-2"> <i class="fa fa-instagram _34"></i></a></li>
+                        <li><a href="https://www.youtube.com/user/TheUSGA" class="social-icon col-md-2 col-xs-4 col-lg-2"> <i class="fa fa-youtube _34"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/united-states-golf-association" class="social-icon col-md-2 col-xs-4 col-lg-2"> <i class="fa fa-linkedin _34"></i></a></li>
+                        <li><a href="https://plus.google.com/101025757252712922342" class="social-icon col-md-2 col-xs-4 col-lg-2"> <i class="fa fa-google-plus _34"></i></a></li>
+                     </ul>
+                     <div class="col-md-12 col-xs-12 col-lg-12">
+                        <div class="col-md-3 col-xs-0 col-lg-3">
+                        </div>
+                        <div class="tw-feed col-md-7 col-xs-12 col-lg-7">
                            <a class="twitter-timeline" href="https://twitter.com/usga"
                               data-theme="dark"
                               data-link-color="#ccc"
@@ -86,29 +122,25 @@
                               height: 40%
                               >@Twitter Feed</a>
                         </div>
-                     <div class="col-md-2 col-xs-2 col-lg-2">
-
-                     </div>
-                     <div class="col-md-12 col-xs-12 col-lg-12 marginTop20">
-                        <div class="col-md-4 col-xs-4 col-lg-4">
+                        <div class="col-md-2 col-xs-0 col-lg-2">
                         </div>
-                        <div class="col-md-4 col-xs-4 col-lg-4">
+                        <div class="col-md-12 col-xs-12 col-lg-12 marginTop20">
+                          
                         </div>
                      </div>
-                     </div>
-                     </div>
-                     <div class="col-md-2 col-xs-2 col-lg-2">
-
-                     </div>
                   </div>
-                  <div class="col-md-12 col-xs-12 col-lg-12 marginTop20">
+                  <div class="col-md-2 col-xs-0 col-lg-2">
                   </div>
+               </div>
+               <div class="col-md-12 col-xs-12 col-lg-12 marginTop20">
                </div>
             </div>
          </div>
       </div>
    </div>
+   </div>
    <!--[if gt IE 8]><!--><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script><!--<![endif]-->
+   <script src="http://isotope.metafizzy.co/v1/jquery.isotope.min.js"></script>
    <script src="quiz.js"></script>
    </body>
 </html>
