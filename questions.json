@@ -1,0 +1,67 @@
+[{
+	"question": "What is 3 plus 2?",
+	"answerOptions": [{
+		"option": "1"
+	}, {
+		"option": "5"
+	}, {
+		"option": "100"
+	}, {
+		"option": "2000"
+	}],
+	"answer": "5",
+	"msgCorrect": "You know your math!",
+	"msgWrong": "3 plus 2 is equal to 5."
+}, {
+	"question": "What is Michael Jordan's first name?",
+	"answerOptions": [{
+		"option": "Michael"
+	}, {
+		"option": "Tim"
+	}, {
+		"option": "John"
+	}, {
+		"option": "Mark"
+	}],
+	"answer": "Michael",
+	"msgCorrect": "You're Right! His name is Michael.",
+	"msgWrong": "You chose the wrong name."
+}, {
+	"question": "Where is the weather warm in the winter time?",
+	"answerOptions": [{
+		"option": "Florida"
+	}, {
+		"option": "New York"
+	}, {
+		"option": "Michigan"
+	}, {
+		"option": "Ohio"
+	}],
+	"answer": "Florida",
+	"msgCorrect": "That’s right, Florida!",
+	"msgWrong": "Nope, it's cold there."
+}, {
+	"question": "What color is a banana?",
+	"answerOptions": [{
+		"option": "Yellow"
+	}, {
+		"option": "Blue"
+	}],
+	"answer": "Yellow",
+	"msgCorrect": "Yes, you are correct!",
+	"msgWrong": "You need to go to a store and check out some Bananas."
+}, {
+	"question": "How often does a Tuesday come around?",
+	"answerOptions": [{
+		"option": "Every Month"
+	}, {
+		"option": "Every Year"
+	}, {
+		"option": "Every 20 years"
+	}, {
+		"option": "Every Week"
+	}],
+	"answer": "Every Week",
+	"msgCorrect": "Yes, every week there is another Tuesday.",
+	"msgWrong": "Every week there is another Tuesday."
+}]

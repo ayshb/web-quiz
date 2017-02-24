@@ -1,0 +1,227 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+body {
+    font-family: 'Lato', sans-serif;
+    color: #FFF;
+    background-image: url('images/golfCourse.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-font-smoothing: antialiased;
+    height:100%;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+p > a:hover{
+    color: #d9d9d9;
+    text-decoration:  underline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin:  1% 0 1% 0;
+}
+._12 {
+    font-size: 1.2em;
+}
+._14 {
+    font-size: 1.4em;
+}
+._24 {
+    font-size: 2.4em;
+}
+._34 {
+    font-size: 3.4em;
+}
+ul {
+    padding:0;
+    list-style: none;
+}
+.footer-social-icons {
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-rss {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+
+}
+.fa-rss:hover {
+    background-color: #eb8231;
+}
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+.fa-google-plus {
+    padding:10px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+
+}
+.fa-google-plus:hover {
+    background-color: #e25714;
+}
+.fa-instagram {
+    padding:10px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+}
+.fa-instagram:hover {
+    background-color: #bc2a8d;
+}
+
+.padding0{
+	padding : 0 !important;
+}
+.pullNone{
+	float:none !important;
+}
+
+.displayNone{
+    display:none;
+}
+
+.divWhite{
+    padding: 10px !important;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius:6px;
+    color: #000;
+}
+
+.divRed{
+    background-color: #ff9b9b !important;
+    border: 1px solid #ff9b9b !important;
+}
+
+.divGreen{
+    background-color: #b1ffa5 !important;
+    border: 1px solid #b1ffa5 !important;
+}
+
+.marginTop10{
+    margin-top:10px;
+}
+
+.marginTop20{
+    margin-top:20px;
+}
+
+.marginTop50{
+    margin-top:50px;
+}
+
+.footer {
+    position: fixed;
+    left: 25px;
+    bottom: 40px;
+    height: 30px;
+    width: 97%;
+}
+
+.padding10{
+    padding: 10px;
+}
+
+.answer{
+    border: 1px solid #fff;
+    border-radius: 6px;
+    color:#000;
+    padding: 10px;
+    margin-top:10px;
+    background-color: #fff;
+}
+
+.text-white{
+    color: #fff;
+}
+
+@media only screen and (max-width : 468px) {
+    body {
+        font-family: 'Lato', sans-serif;
+        color: #FFF;
+        background-image: url('images/golfCourse.png');
+        background-repeat: no-repeat;
+        background-size:300%;
+        -webkit-font-smoothing: antialiased;
+        height:100%;
+    }
+}
+
+.tw-feed a {color:#fff;text-decoration:none;}
+.tw-feed a:hover {color:#ccc;text-decoration:none;}
+.twitter-timeline {position:relative;}
