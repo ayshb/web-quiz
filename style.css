@@ -120,7 +120,7 @@ ul.social-icons {
 .fa-linkedin:hover {
     background-color: #0073a4;
 }
-.fa-google-plus {
+.fa-snapchat {
     padding:10px 9px;
     -o-transition:.5s;
     -ms-transition:.5s;
@@ -129,8 +129,8 @@ ul.social-icons {
     transition: .5s;
 
 }
-.fa-google-plus:hover {
-    background-color: #e25714;
+.fa-snapchat:hover {
+    background-color: #fffc00;
 }
 .fa-instagram {
     padding:10px 9px;
@@ -314,3 +314,11 @@ body {
 }
 
 /* End: Recommended Isotope styles */
+
+
+#finalScreen .container {
+    background-color: rgba(0,0,0,0.35);
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 30px 15px;
+}
